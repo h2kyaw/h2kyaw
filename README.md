@@ -15,11 +15,11 @@ I'm Hein Htet Kyaw from Myanmar who Develop Myanmar Adult forum with [Mybb Forum
 - Gohugo 
 
 ### 📫 How to reach me: ...
-- [Github: @h2kyaw](//github.com/h2kyaw)
-- [Twitter: @HeinHtetKyaw](//twitter.com/HeinHtetKyaw_)
-- [Facebook: @Kiddo Monster](//www.fb.me/heinhtetkyaw.blog)
-- [Linkedin @h2kyaw](//www.linkedin.com/in/h2kyaw)
-- [Keybase @heinhtetkyaw](//keybase.io/heinhtetkyaw)
+- [h2kyaw@Github](//github.com/h2kyaw)
+- [HeinHtetKyaw@Twitter](//twitter.com/HeinHtetKyaw_)
+- [Kiddo Monster@Facebook](//www.fb.me/heinhtetkyaw.blog)
+- [h2kyaw@Linkedin](//www.linkedin.com/in/h2kyaw)
+- [heinhtetkyaw@Keybase](//keybase.io/heinhtetkyaw)
 <!--
 
 Here are some ideas to get you started:
