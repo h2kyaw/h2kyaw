@@ -89,6 +89,14 @@ Social Media Marketing automation toolkit for Telegram
 ## ✍️ Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
+
+---
+
+## :zap: Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 ---
 
 ## 📊 GitHub Stats
