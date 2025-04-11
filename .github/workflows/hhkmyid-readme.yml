@@ -1,0 +1,21 @@
+name: Latest blogs activity
+on:
+  schedule:
+    # Runs every 5 minutes
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  
+jobs:
+  update-readme-with-stack-overflow:
+    name: Update this repo's README with latest activity from WebSite
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: "hhkmyid"
+          commit_message: "Updated readme with the latest feed"
+          max_post_count: 10
+          feed_list: "https://hhk.my.id/posts/index.xml"
