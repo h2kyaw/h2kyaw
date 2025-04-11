@@ -67,7 +67,7 @@ For getting information about Telegram Premium Store.
 [![MPXSMMBot](https://img.shields.io/badge/📢_MPXSMMBot-fff?logo=telegram)](https://t.me/MPXSMMBot)  
 Social Media Marketing automation toolkit for Telegram
 
-### 🔜 Coming Soon & 🚧 Upcoming Projects
+### 🚧 Upcoming Projects
 - **MPXVideoBot** - Premium video downloader
 - **MPXChatGPTBot** - AI-powered Telegram assistant
 - **MPXConverterBot** - Universal file conversion
@@ -86,23 +86,11 @@ Social Media Marketing automation toolkit for Telegram
 - **WordPress Optimization Kit** - Performance tuning resources
 - **MyBB Plugin Templates** - Starter kits for developers
 
-## ✍️ Latest Blog Posts
+### ✍️ Latest Blog Posts ⟿ [@hhk.my.id](https://hhk.my.id)
 <!-- hhkmyid:START -->
-- [Office 365 with Developer Account](https://hhk.my.id/posts/office365-with-developer-account/)
-- [Domain &lpar;DNS&rpar; Journey](https://hhk.my.id/posts/domain-dns-journey/)
-- [Download m3u8 with ffmpeg](https://hhk.my.id/posts/download-m3u8-ffmpeg/)
-- [KaTeX - Math](https://hhk.my.id/posts/katex-math/)
-- [Chemical](https://hhk.my.id/posts/chemical/)
-- [Diagrams](https://hhk.my.id/posts/diagrams/)
-- [Hyper + Git Terminal Customize](https://hhk.my.id/posts/hyper-git-terminal-customize/)
-- [Removing Desktop Shortcut Arrow](https://hhk.my.id/posts/removing-desktop-shortcut-arrow/)
-- [Strict Mode - Playing With Database - 1](https://hhk.my.id/posts/strict-mode-playing-database-1/)
-- [Schedule Shutdown Windows 10](https://hhk.my.id/posts/schedule-shutdown-windows-10/)
 <!-- hhkmyid:END -->
 
----
-
-## :zap: Recent Activity
+### :zap: Recent Activity
 
 <!--START_SECTION:activity-->
 1. 🗣 Commented on [#17](https://github.com/hhkmy/stats/issues/17#issuecomment-2794765603) in [hhkmy/stats](https://github.com/hhkmy/stats)
