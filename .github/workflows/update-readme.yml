@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: Update this repo's README with recent activity
+    name: Update README with recent activity
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: jamesgeorge007/github-activity-readme@master
         env:
-          TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
