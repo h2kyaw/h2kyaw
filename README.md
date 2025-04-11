@@ -87,8 +87,8 @@ Social Media Marketing automation toolkit for Telegram
 - **MyBB Plugin Templates** - Starter kits for developers
 
 ## ✍️ Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<!-- hhkmyid:START -->
+<!-- hhkmyid:END -->
 
 ---
 
