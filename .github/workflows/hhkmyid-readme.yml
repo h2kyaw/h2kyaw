@@ -19,3 +19,4 @@ jobs:
           commit_message: "Updated readme with the latest feed"
           max_post_count: 10
           feed_list: "https://hhk.my.id/posts/index.xml"
+          template: "$newline - 📖 [$title]($url) $newline - $description $newline"
