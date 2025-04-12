@@ -8,7 +8,9 @@
 <h3 align="center">Full-Stack Developer | Telegram Bot Creator | WordPress Specialist</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Building+Telegram+Bots;Developing+WordPress+Solutions;Creating+MyBB+Plugins;From+Myanmar+%F0%9F%87%B2%F0%9F%87%B2" alt="Typing animation">
+  <a href="https://hhk.my.id">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Building+Telegram+Bots;Developing+WordPress+Solutions;Creating+MyBB+Plugins;From+Myanmar+%F0%9F%87%B2%F0%9F%87%B2" alt="Typing animation">
+  </a>
 </p>
 
 ---
@@ -87,36 +89,50 @@ Social Media Marketing automation toolkit for Telegram
 - **MyBB Plugin Templates** - Starter kits for developers
 
 ### ✍️ Latest Blog Posts ⟿ [@hhk.my.id](https://hhk.my.id)
+<div class="writing-list">
+
 <!-- hhkmyid:START -->
-- [Office 365 with Developer Account](https://hhk.my.id/posts/office365-with-developer-account/)
-- [Domain &lpar;DNS&rpar; Journey](https://hhk.my.id/posts/domain-dns-journey/)
-- [Download m3u8 with ffmpeg](https://hhk.my.id/posts/download-m3u8-ffmpeg/)
-- [KaTeX - Math](https://hhk.my.id/posts/katex-math/)
-- [Chemical](https://hhk.my.id/posts/chemical/)
-- [Diagrams](https://hhk.my.id/posts/diagrams/)
-- [Hyper + Git Terminal Customize](https://hhk.my.id/posts/hyper-git-terminal-customize/)
-- [Removing Desktop Shortcut Arrow](https://hhk.my.id/posts/removing-desktop-shortcut-arrow/)
-- [Strict Mode - Playing With Database - 1](https://hhk.my.id/posts/strict-mode-playing-database-1/)
-- [Schedule Shutdown Windows 10](https://hhk.my.id/posts/schedule-shutdown-windows-10/)
 <!-- hhkmyid:END -->
+
+</div>
+
+<style>
+.writing-list {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+.writing-list a {
+  color: #2b6cb0;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.writing-list a:hover {
+  color: #1a365d;
+  text-decoration: underline;
+}
+
+/* Style for the ✍️ emoji */
+.writing-list::before {
+  content: "✍️";
+  margin-right: 8px;
+  font-size: 1.1em;
+  vertical-align: middle;
+}
+
+/* Alternative: Style each emoji individually */
+.writing-list li::before {
+  content: "✍️";
+  margin-right: 8px;
+  color: #e53e3e;
+}
+</style>
 
 ### :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed 1 commit(s) to [h2kyaw/h2kyaw](https://github.com/h2kyaw/h2kyaw)<br>
-2. ⬆️ Pushed 1 commit(s) to [h2kyaw/h2kyaw](https://github.com/h2kyaw/h2kyaw)<br>
-3. ⬆️ Pushed 1 commit(s) to [h2kyaw/h2kyaw](https://github.com/h2kyaw/h2kyaw)<br>
-4. ⬆️ Pushed 1 commit(s) to [h2kyaw/h2kyaw](https://github.com/h2kyaw/h2kyaw)<br>
-5. ⬆️ Pushed 1 commit(s) to [h2kyaw/h2kyaw](https://github.com/h2kyaw/h2kyaw)<br>
-6. ⬆️ Pushed 1 commit(s) to [h2kyaw/h2kyaw](https://github.com/h2kyaw/h2kyaw)<br>
-7. ⬆️ Pushed 1 commit(s) to [h2kyaw/h2kyaw](https://github.com/h2kyaw/h2kyaw)<br>
-8. ⬆️ Pushed 1 commit(s) to [h2kyaw/h2kyaw](https://github.com/h2kyaw/h2kyaw)<br>
-9. ⬆️ Pushed 1 commit(s) to [h2kyaw/h2kyaw](https://github.com/h2kyaw/h2kyaw)<br>
-10. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 <!--RECENT_ACTIVITY:end-->
-<!--RECENT_ACTIVITY:last_update-->
-Last Updated: Saturday, April 12th, 2025, 7:57:42 AM
-<!--RECENT_ACTIVITY:last_update_end-->
 
 ---
 
