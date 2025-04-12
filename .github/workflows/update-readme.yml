@@ -19,5 +19,3 @@ jobs:
         uses: Readme-Workflows/recent-activity@main
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-        with:
-          max_lines: 10
