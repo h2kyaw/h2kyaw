@@ -20,4 +20,4 @@ jobs:
           max_post_count: 10
           feed_list: "https://hhk.my.id/posts/index.xml"
           template: |
-            <a href='$url' target='_blank'>📖 $title</a><br>
+            📖 <a href='$url' style="padding-left: 2em;" target='_blank'>$title</a><br>
