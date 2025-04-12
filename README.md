@@ -92,16 +92,16 @@ Social Media Marketing automation toolkit for Telegram
 
 <div style="list-style-type: '📖 ';">
   
-<!-- hhkmyid:START -->📖 [Office 365 with Developer Account](https://hhk.my.id/posts/office365-with-developer-account/) 
-📖 [Domain &lpar;DNS&rpar; Journey](https://hhk.my.id/posts/domain-dns-journey/) 
-📖 [Download m3u8 with ffmpeg](https://hhk.my.id/posts/download-m3u8-ffmpeg/) 
-📖 [KaTeX - Math](https://hhk.my.id/posts/katex-math/) 
-📖 [Chemical](https://hhk.my.id/posts/chemical/) 
-📖 [Diagrams](https://hhk.my.id/posts/diagrams/) 
-📖 [Hyper + Git Terminal Customize](https://hhk.my.id/posts/hyper-git-terminal-customize/) 
-📖 [Removing Desktop Shortcut Arrow](https://hhk.my.id/posts/removing-desktop-shortcut-arrow/) 
-📖 [Strict Mode - Playing With Database - 1](https://hhk.my.id/posts/strict-mode-playing-database-1/) 
-📖 [Schedule Shutdown Windows 10](https://hhk.my.id/posts/schedule-shutdown-windows-10/) 
+<!-- hhkmyid:START -->- 📖 [Office 365 with Developer Account](https://hhk.my.id/posts/office365-with-developer-account/) 
+- 📖 [Domain &lpar;DNS&rpar; Journey](https://hhk.my.id/posts/domain-dns-journey/) 
+- 📖 [Download m3u8 with ffmpeg](https://hhk.my.id/posts/download-m3u8-ffmpeg/) 
+- 📖 [KaTeX - Math](https://hhk.my.id/posts/katex-math/) 
+- 📖 [Chemical](https://hhk.my.id/posts/chemical/) 
+- 📖 [Diagrams](https://hhk.my.id/posts/diagrams/) 
+- 📖 [Hyper + Git Terminal Customize](https://hhk.my.id/posts/hyper-git-terminal-customize/) 
+- 📖 [Removing Desktop Shortcut Arrow](https://hhk.my.id/posts/removing-desktop-shortcut-arrow/) 
+- 📖 [Strict Mode - Playing With Database - 1](https://hhk.my.id/posts/strict-mode-playing-database-1/) 
+- 📖 [Schedule Shutdown Windows 10](https://hhk.my.id/posts/schedule-shutdown-windows-10/) 
 <!-- hhkmyid:END -->
 
 </div>
