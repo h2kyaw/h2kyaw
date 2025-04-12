@@ -89,7 +89,6 @@ Social Media Marketing automation toolkit for Telegram
 - **MyBB Plugin Templates** - Starter kits for developers
 
 ### ✍️ Latest Blog Posts ⟿ [@hhk.my.id](https://hhk.my.id)
-<div class="writing-list">
 
 <!-- hhkmyid:START -->
 - [Office 365 with Developer Account](https://hhk.my.id/posts/office365-with-developer-account/)
@@ -103,41 +102,6 @@ Social Media Marketing automation toolkit for Telegram
 - [Strict Mode - Playing With Database - 1](https://hhk.my.id/posts/strict-mode-playing-database-1/)
 - [Schedule Shutdown Windows 10](https://hhk.my.id/posts/schedule-shutdown-windows-10/)
 <!-- hhkmyid:END -->
-
-</div>
-
-<style>
-.writing-list {
-  font-family: 'Segoe UI', sans-serif;
-  line-height: 1.6;
-}
-
-.writing-list a {
-  color: #2b6cb0;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.writing-list a:hover {
-  color: #1a365d;
-  text-decoration: underline;
-}
-
-/* Style for the ✍️ emoji */
-.writing-list::before {
-  content: "✍️";
-  margin-right: 8px;
-  font-size: 1.1em;
-  vertical-align: middle;
-}
-
-/* Alternative: Style each emoji individually */
-.writing-list li::before {
-  content: "✍️";
-  margin-right: 8px;
-  color: #e53e3e;
-}
-</style>
 
 ### :zap: Recent Activity
 
