@@ -102,13 +102,8 @@ Social Media Marketing automation toolkit for Telegram
 
 ### :zap: Recent Activity
 
-<!--START_SECTION:activity-->
-1. 🗣 Commented on [#17](https://github.com/hhkmy/stats/issues/17#issuecomment-2794765603) in [hhkmy/stats](https://github.com/hhkmy/stats)
-2. 🔒 Closed issue [#17](https://github.com/hhkmy/stats/issues/17) in [hhkmy/stats](https://github.com/hhkmy/stats)
-3. 🔒 Closed issue [#21](https://github.com/hhkmy/stats/issues/21) in [hhkmy/stats](https://github.com/hhkmy/stats)
-4. 🗣 Commented on [#21](https://github.com/hhkmy/stats/issues/21#issuecomment-2794764446) in [hhkmy/stats](https://github.com/hhkmy/stats)
-5. 🗣 Commented on [#23](https://github.com/hhkmy/stats/issues/23#issuecomment-2794763568) in [hhkmy/stats](https://github.com/hhkmy/stats)
-<!--END_SECTION:activity-->
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:last_update-->
 
 ---
 
