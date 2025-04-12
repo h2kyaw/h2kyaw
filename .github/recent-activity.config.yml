@@ -4,9 +4,9 @@ settings:
   max_lines: 10
   url_text: "{REPO}{ID}"
   date:
-    timezone: "+06:30"
+    timezone: "GMT+00:00"
     text: "Last Updated: {DATE}"
-    format: "YYYY-MM-DDTHH:mm:ssZ"
+    format: "dddd, mmmm dS, yyyy, h:MM:ss TT"
   commit_name: "readme-bot"
   line_prefix: "{NUM}. "
 messages:
