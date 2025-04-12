@@ -4,7 +4,7 @@ settings:
   max_lines: 10
   url_text: "{REPO}{ID}"
   date:
-    timezone: "UTC+06:30"
+    timezone: "+06:30"
     text: "Last Updated: {DATE}"
     format: "YYYY-MM-DDTHH:mm:ssZ"
   commit_name: "readme-bot"
