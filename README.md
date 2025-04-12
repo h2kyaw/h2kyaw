@@ -90,6 +90,8 @@ Social Media Marketing automation toolkit for Telegram
 
 ### ✍️ Latest Blog Posts ⟿ [@hhk.my.id](https://hhk.my.id)
 
+<div style="list-style-type: '📖 ';">
+  
 <!-- hhkmyid:START -->
 - [Office 365 with Developer Account](https://hhk.my.id/posts/office365-with-developer-account/)
 - [Domain &lpar;DNS&rpar; Journey](https://hhk.my.id/posts/domain-dns-journey/)
@@ -102,6 +104,8 @@ Social Media Marketing automation toolkit for Telegram
 - [Strict Mode - Playing With Database - 1](https://hhk.my.id/posts/strict-mode-playing-database-1/)
 - [Schedule Shutdown Windows 10](https://hhk.my.id/posts/schedule-shutdown-windows-10/)
 <!-- hhkmyid:END -->
+
+</div>
 
 ### :zap: Recent Activity
 
