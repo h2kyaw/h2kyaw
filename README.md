@@ -92,17 +92,7 @@ Social Media Marketing automation toolkit for Telegram
 
 <div style="list-style-type: '📖 ';">
   
-<!-- hhkmyid:START -->
- - 📖 [Office 365 with Developer Account](https://hhk.my.id/posts/office365-with-developer-account/)
- - 📖 [Domain &lpar;DNS&rpar; Journey](https://hhk.my.id/posts/domain-dns-journey/)
- - 📖 [Download m3u8 with ffmpeg](https://hhk.my.id/posts/download-m3u8-ffmpeg/)
- - 📖 [KaTeX - Math](https://hhk.my.id/posts/katex-math/)
- - 📖 [Chemical](https://hhk.my.id/posts/chemical/)
- - 📖 [Diagrams](https://hhk.my.id/posts/diagrams/)
- - 📖 [Hyper + Git Terminal Customize](https://hhk.my.id/posts/hyper-git-terminal-customize/)
- - 📖 [Removing Desktop Shortcut Arrow](https://hhk.my.id/posts/removing-desktop-shortcut-arrow/)
- - 📖 [Strict Mode - Playing With Database - 1](https://hhk.my.id/posts/strict-mode-playing-database-1/)
- - 📖 [Schedule Shutdown Windows 10](https://hhk.my.id/posts/schedule-shutdown-windows-10/)<!-- hhkmyid:END -->
+<!-- hhkmyid:START --><li><a href='https://hhk.my.id/posts/office365-with-developer-account/' target='_blank'>📖 Office 365 with Developer Account</a></li><li><a href='https://hhk.my.id/posts/domain-dns-journey/' target='_blank'>📖 Domain &lpar;DNS&rpar; Journey</a></li><li><a href='https://hhk.my.id/posts/download-m3u8-ffmpeg/' target='_blank'>📖 Download m3u8 with ffmpeg</a></li><li><a href='https://hhk.my.id/posts/katex-math/' target='_blank'>📖 KaTeX - Math</a></li><li><a href='https://hhk.my.id/posts/chemical/' target='_blank'>📖 Chemical</a></li><li><a href='https://hhk.my.id/posts/diagrams/' target='_blank'>📖 Diagrams</a></li><li><a href='https://hhk.my.id/posts/hyper-git-terminal-customize/' target='_blank'>📖 Hyper + Git Terminal Customize</a></li><li><a href='https://hhk.my.id/posts/removing-desktop-shortcut-arrow/' target='_blank'>📖 Removing Desktop Shortcut Arrow</a></li><li><a href='https://hhk.my.id/posts/strict-mode-playing-database-1/' target='_blank'>📖 Strict Mode - Playing With Database - 1</a></li><li><a href='https://hhk.my.id/posts/schedule-shutdown-windows-10/' target='_blank'>📖 Schedule Shutdown Windows 10</a></li><!-- hhkmyid:END -->
 
 </div>
 
