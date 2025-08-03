@@ -99,16 +99,16 @@ Social Media Marketing automation toolkit for Telegram
 ### :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed 2 commit(s) to [hhkmy/id](https://github.com/hhkmy/id)<br>
-2. ✌️ Released [v1](https://github.com/hhkmy/id/releases/tag/v1) in [hhkmy/id](https://github.com/hhkmy/id)<br>
-3. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-4. ⬆️ Pushed 1 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-5. ⬆️ Pushed 4 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-6. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-7. ⬆️ Pushed 1 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+1. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+2. ⬆️ Pushed 1 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+3. ⬆️ Pushed 4 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+4. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+5. ⬆️ Pushed 1 commit(s) to [hhkmy/id](https://github.com/hhkmy/id)<br>
+6. ⬆️ Pushed 1 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+7. ⬆️ Pushed 8 commit(s) to [hhkmy/id](https://github.com/hhkmy/id)<br>
 8. ⬆️ Pushed 4 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-9. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-10. ⬆️ Pushed 1 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+9. ⬆️ Pushed 2 commit(s) to [hhkmy/id](https://github.com/hhkmy/id)<br>
+10. ✌️ Released [v1](https://github.com/hhkmy/id/releases/tag/v1) in [hhkmy/id](https://github.com/hhkmy/id)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ---
