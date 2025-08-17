@@ -99,15 +99,15 @@ Social Media Marketing automation toolkit for Telegram
 ### :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:start-->
-1. 🔱 Forked [h2kyaw/awesome-raspberry-pi](https://github.com/h2kyaw/awesome-raspberry-pi) from [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi)<br>
-2. ⬆️ Pushed 1 commit(s) to [hhkmy/read](https://github.com/hhkmy/read)<br>
-3. ⬆️ Pushed 1 commit(s) to [hhkmy/read](https://github.com/hhkmy/read)<br>
+1. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+2. ⬆️ Pushed 1 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+3. ⬆️ Pushed 4 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 4. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 5. ⬆️ Pushed 1 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 6. ⬆️ Pushed 4 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-7. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-8. ⬆️ Pushed 1 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-9. ⬆️ Pushed 4 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+7. 🔱 Forked [h2kyaw/awesome-raspberry-pi](https://github.com/h2kyaw/awesome-raspberry-pi) from [thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi)<br>
+8. ⬆️ Pushed 1 commit(s) to [hhkmy/read](https://github.com/hhkmy/read)<br>
+9. ⬆️ Pushed 1 commit(s) to [hhkmy/read](https://github.com/hhkmy/read)<br>
 10. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 <!--RECENT_ACTIVITY:end-->
 
