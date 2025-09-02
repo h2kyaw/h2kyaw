@@ -99,16 +99,16 @@ Social Media Marketing automation toolkit for Telegram
 ### :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-2. ⬆️ Pushed 1 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-3. ⬆️ Pushed 4 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-4. ⭐ Starred [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)<br>
+1. ⭐ Starred [hwdsl2/wireguard-install](https://github.com/hwdsl2/wireguard-install)<br>
+2. ⭐ Starred [angristan/openvpn-install](https://github.com/angristan/openvpn-install)<br>
+3. ⭐ Starred [angristan/wireguard-install](https://github.com/angristan/wireguard-install)<br>
+4. ⭐ Starred [angristan/openvpn-install](https://github.com/angristan/openvpn-install)<br>
 5. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 6. ⬆️ Pushed 1 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 7. ⬆️ Pushed 4 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-8. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-9. ⬆️ Pushed 1 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-10. ⬆️ Pushed 4 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+8. ⭐ Starred [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)<br>
+9. ⬆️ Pushed 2 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+10. ⬆️ Pushed 1 commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ---
