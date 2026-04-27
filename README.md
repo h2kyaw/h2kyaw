@@ -105,10 +105,10 @@ Social Media Marketing automation toolkit for Telegram
 4. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 5. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 6. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-7. ⭐ Starred [angristan/openvpn-install](https://github.com/angristan/openvpn-install)<br>
-8. 🔱 Forked [h2kyaw/openvpn-install](https://github.com/h2kyaw/openvpn-install) from [angristan/openvpn-install](https://github.com/angristan/openvpn-install)<br>
+7. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+8. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 9. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-10. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+10. ⭐ Starred [angristan/openvpn-install](https://github.com/angristan/openvpn-install)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ---
