@@ -105,10 +105,10 @@ Social Media Marketing automation toolkit for Telegram
 4. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 5. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 6. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-7. ⭐ Starred [sigma67/ytmusicapi](https://github.com/sigma67/ytmusicapi)<br>
+7. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 8. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 9. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-10. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+10. ⭐ Starred [sigma67/ytmusicapi](https://github.com/sigma67/ytmusicapi)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ---
