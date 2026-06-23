@@ -104,11 +104,11 @@ Social Media Marketing automation toolkit for Telegram
 3. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 4. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 5. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-6. ⭐ Starred [kios-apis/smileone](https://github.com/kios-apis/smileone)<br>
-7. ⭐ Starred [minkhant-bilp/K-Shop-Game-App](https://github.com/minkhant-bilp/K-Shop-Game-App)<br>
-8. ⭐ Starred [gameshopgameshop471-netizen/Rankagegameshop](https://github.com/gameshopgameshop471-netizen/Rankagegameshop)<br>
-9. ⭐ Starred [Thawtarlamin/smile-one-api](https://github.com/Thawtarlamin/smile-one-api)<br>
-10. ⭐ Starred [Narbu2604/smileone-bot](https://github.com/Narbu2604/smileone-bot)<br>
+6. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+7. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+8. ⭐ Starred [kios-apis/smileone](https://github.com/kios-apis/smileone)<br>
+9. ⭐ Starred [minkhant-bilp/K-Shop-Game-App](https://github.com/minkhant-bilp/K-Shop-Game-App)<br>
+10. ⭐ Starred [gameshopgameshop471-netizen/Rankagegameshop](https://github.com/gameshopgameshop471-netizen/Rankagegameshop)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ---
