@@ -99,16 +99,16 @@ Social Media Marketing automation toolkit for Telegram
 ### :zap: Recent Activity
 
 <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+1. ⭐ Starred [codezjx/netease-cloud-music-dl](https://github.com/codezjx/netease-cloud-music-dl)<br>
 2. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 3. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-4. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
+4. ⭐ Starred [htooayelwinict/Agentic-AI-Book](https://github.com/htooayelwinict/Agentic-AI-Book)<br>
 5. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 6. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-7. ⭐ Starred [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)<br>
+7. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 8. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 9. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-10. 🔱 Forked [h2kyaw/agent-skills](https://github.com/h2kyaw/agent-skills) from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)<br>
+10. ⬆️ Pushed undefined commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ---
