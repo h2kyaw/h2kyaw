@@ -1,0 +1,166 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+import { getCollection } from 'astro:content';
+
+let projects: any[] = [];
+try {
+  projects = await getCollection('projects');
+  // Sort by date descending
+  projects.sort((a, b) => {
+    const da = new Date(a.data.date || '2026-01-01').getTime();
+    const db = new Date(b.data.date || '2026-01-01').getTime();
+    return db - da;
+  });
+} catch (e) {
+  console.error("Error loading projects:", e);
+}
+
+// Group projects by project id (hhkbot, vpn, scripts, etc.)
+const projectGroups: Record<string, any[]> = {};
+for (const item of projects) {
+  const pName = item.data.project || item.id.split('/')[0] || 'other';
+  if (!projectGroups[pName]) projectGroups[pName] = [];
+  projectGroups[pName].push(item);
+}
+
+const projectKeys = Object.keys(projectGroups);
+
+const projectMeta: Record<string, { label: string; desc: string; icon: string; color: string }> = {
+  hhkbot: {
+    label: "hhkbot",
+    desc: "Direct MTProto Telegram bot, business automation & group administration mesh",
+    icon: "bot",
+    color: "#38bdf8"
+  },
+  vpn: {
+    label: "vpn / rpi-hotspot",
+    desc: "Raspberry Pi hardware VPN hotspot, Sing-box detour & policy routing",
+    icon: "shield",
+    color: "#34d399"
+  },
+  scripts: {
+    label: "scripts & tooling",
+    desc: "Linux environment installers, Antigravity manager & edge worker proxies",
+    icon: "terminal",
+    color: "#fbbf24"
+  }
+};
+---
+
+<Layout title="Project Engineering Writeups | Hein Htet Kyaw">
+  <!-- Header -->
+  <div style="margin-bottom: 2.5rem;">
+    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+      <Icon name="layers" size={28} class="text-sky-400" />
+      <h1 style="font-size: 2.25rem; font-weight: 800; color: #fff;">
+        Engineering Writeups & Architecture Logs
+      </h1>
+    </div>
+    <p style="color: var(--text-secondary); font-size: 1.05rem; max-width: 750px;">
+      Deep-dive Root Cause Analyses (RCA), Architecture Decision Records (ADR), and performance benchmarks across local projects in <code>~/Projects/</code> and <code>~/websites/</code>.
+    </p>
+  </div>
+
+  <!-- Project Hub Overview Cards -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-bottom: 3rem;">
+    {projectKeys.map((key) => {
+      const meta = projectMeta[key] || { label: key, desc: `Engineering logs for ${key}`, icon: "folder", color: "#38bdf8" };
+      const count = projectGroups[key].length;
+      return (
+        <a href={`#project-${key}`} style="text-decoration: none;">
+          <div class="card" style="border-left: 4px solid var(--accent); height: 100%;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+              <div style="display: flex; align-items: center; gap: 0.5rem; color: #fff; font-weight: 700; font-size: 1.1rem;">
+                <Icon name={meta.icon} size={20} />
+                <span>{meta.label}</span>
+              </div>
+              <span class="badge" style="font-size: 0.8rem;">{count} logs</span>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.4;">
+              {meta.desc}
+            </p>
+          </div>
+        </a>
+      );
+    })}
+  </div>
+
+  <!-- Grouped Project Sections -->
+  {projectKeys.map((key) => {
+    const meta = projectMeta[key] || { label: key, desc: `Engineering logs for ${key}`, icon: "folder", color: "#38bdf8" };
+    const groupItems = projectGroups[key];
+    return (
+      <section id={`project-${key}`} style="margin-bottom: 4rem; scroll-margin-top: 5rem;">
+        <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem; margin-bottom: 1.5rem;">
+          <div style="display: flex; align-items: center; gap: 0.65rem;">
+            <div style="background-color: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.2); padding: 0.4rem; border-radius: 8px; color: var(--accent);">
+              <Icon name={meta.icon} size={22} />
+            </div>
+            <div>
+              <h2 style="font-size: 1.4rem; font-weight: 700; color: #fff; line-height: 1.2;">
+                {meta.label}
+              </h2>
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono);">
+                ~/Projects/{key}
+              </span>
+            </div>
+          </div>
+          <span class="badge">{groupItems.length} Records</span>
+        </div>
+
+        <div class="card-grid">
+          {groupItems.map((item) => {
+            const isPostmortem = item.data.type === 'postmortem';
+            const isAdr = item.data.type === 'adr';
+            const badgeType = isPostmortem ? 'Postmortem' : (isAdr ? 'ADR' : 'Feature');
+            const badgeIcon = isPostmortem ? 'bug' : (isAdr ? 'layers' : 'zap');
+            const badgeStyle = isPostmortem 
+              ? 'background-color: rgba(244, 63, 94, 0.1); border-color: rgba(244, 63, 94, 0.25); color: #fda4af;' 
+              : (isAdr 
+                ? 'background-color: rgba(99, 102, 241, 0.1); border-color: rgba(99, 102, 241, 0.25); color: #a5b4fc;' 
+                : 'background-color: rgba(16, 185, 129, 0.1); border-color: rgba(16, 185, 129, 0.25); color: #6ee7b7;');
+
+            return (
+              <a href={`/projects/${item.id}`} class="card" style="text-decoration: none;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                  <span class="badge" style={badgeStyle}>
+                    <span style="display: inline-flex; align-items: center; gap: 0.35rem;">
+                      <Icon name={badgeIcon} size={14} />
+                      {badgeType}
+                    </span>
+                  </span>
+                  <span style="font-size: 0.8rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.3rem;">
+                    <Icon name="calendar" size={13} />
+                    {item.data.date ? new Date(item.data.date).toISOString().split('T')[0] : '2026-10-07'}
+                  </span>
+                </div>
+
+                <h3 class="card-title" style="line-height: 1.35; margin-bottom: 0.6rem;">
+                  {item.data.title || item.id}
+                </h3>
+
+                <p class="card-desc" style="line-height: 1.5;">
+                  {item.data.summary || item.data.description || "In-depth engineering documentation and root cause analysis."}
+                </p>
+
+                <div class="card-meta" style="margin-top: auto; padding-top: 0.75rem; border-top: 1px solid var(--border-color);">
+                  <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+                    {(item.data.tags || []).slice(0, 3).map((t: string) => (
+                      <span style="font-size: 0.7rem; color: var(--text-muted); font-family: var(--font-mono);">
+                        #{t}
+                      </span>
+                    ))}
+                  </div>
+                  <span style="color: var(--accent); font-weight: 500; font-size: 0.85rem; display: flex; align-items: center; gap: 0.25rem;">
+                    Read <Icon name="arrow-right" size={14} />
+                  </span>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    );
+  })}
+</Layout>

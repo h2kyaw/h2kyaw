@@ -1,0 +1,79 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="About Hein Htet Kyaw | Full-Stack & Bot Creator">
+  <div style="max-width: 800px; margin: 0 auto;">
+    <section style="margin-bottom: 3rem;">
+      <h1 style="font-size: 2.5rem; font-weight: 800; color: #fff; margin-bottom: 1rem;">
+        About Hein Htet Kyaw 👋
+      </h1>
+      <p style="font-size: 1.15rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 1.5rem;">
+        I'm a versatile full-stack software developer from Myanmar 🇲🇲 specializing in 
+        high-performance Telegram bot automation, WordPress enterprise architectures, and developer tooling.
+      </p>
+
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+        <span class="badge">🤖 Telegram Bot Engineering</span>
+        <span class="badge">🌐 WordPress & WooCommerce</span>
+        <span class="badge">🏗️ Systems & DevOps</span>
+        <span class="badge">⚙️ Node.js / TypeScript / Python</span>
+      </div>
+    </section>
+
+    <!-- Projects Portfolio -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-size: 1.75rem; color: #fff; margin-bottom: 1.25rem;">🤖 Flagship Telegram Bots</h2>
+      <div style="display: flex; flex-direction: column; gap: 1rem;">
+        <div style="background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+            <h3 style="font-size: 1.1rem; color: #fff;">🎧 MPXMusicBot</h3>
+            <a href="https://t.me/MPXMusicBot" target="_blank" rel="noopener noreferrer" class="badge">Launch Bot &rarr;</a>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.9rem;">
+            Real-time music streaming inside Telegram voice chats with high-fidelity audio, queueing, and playlist management.
+          </p>
+        </div>
+
+        <div style="background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+            <h3 style="font-size: 1.1rem; color: #fff;">🎵 MPXSongBot</h3>
+            <a href="https://t.me/MPXSongBot" target="_blank" rel="noopener noreferrer" class="badge">Launch Bot &rarr;</a>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.9rem;">
+            Instant YouTube audio extractor and high-quality MP3 converter delivering songs directly in Telegram chats.
+          </p>
+        </div>
+
+        <div style="background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+            <h3 style="font-size: 1.1rem; color: #fff;">🔥 MPXLeaveBanBot</h3>
+            <a href="https://t.me/MPXLeaveBanBot" target="_blank" rel="noopener noreferrer" class="badge">Launch Bot &rarr;</a>
+          </div>
+          <p style="color: var(--text-secondary); font-size: 0.9rem;">
+            Automated group anti-raid protection that permanently restricts users who leave, protecting community governance.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack Matrix -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-size: 1.75rem; color: #fff; margin-bottom: 1.25rem;">🛠 Tech Stack & Tools</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+        <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 10px; padding: 1rem;">
+          <div style="font-weight: 600; color: #38bdf8; margin-bottom: 0.5rem;">Telegram / MTProto</div>
+          <p style="font-size: 0.85rem; color: var(--text-secondary);">Python, TypeScript, MTProto, FFmpeg, Redis, Pyrogram, mtcute</p>
+        </div>
+        <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 10px; padding: 1rem;">
+          <div style="font-weight: 600; color: #818cf8; margin-bottom: 0.5rem;">Web & CMS</div>
+          <p style="font-size: 0.85rem; color: var(--text-secondary);">WordPress, PHP, WooCommerce, MyBB, Astro, JavaScript, HTML5/CSS3</p>
+        </div>
+        <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 10px; padding: 1rem;">
+          <div style="font-weight: 600; color: #34d399; margin-bottom: 0.5rem;">DevOps & Infra</div>
+          <p style="font-size: 0.85rem; color: var(--text-secondary);">Docker, Linux (Ubuntu/Debian), GitHub Actions, Cloudflare, Git, AWS</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

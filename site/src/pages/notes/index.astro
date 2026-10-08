@@ -1,0 +1,88 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+import { getCollection } from 'astro:content';
+
+let notes: any[] = [];
+try {
+  notes = await getCollection('notes');
+} catch (e) {
+  console.error("Error loading notes:", e);
+}
+
+// Sort newest first
+notes.sort((a, b) => {
+  const dateA = a.data.date ? new Date(a.data.date).getTime() : 0;
+  const dateB = b.data.date ? new Date(b.data.date).getTime() : 0;
+  return dateB - dateA;
+});
+---
+
+<Layout title="Knowledge Notes & Articles | Hein Htet Kyaw">
+  <div style="margin-bottom: 2.5rem;">
+    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+      <div style="width: 40px; height: 40px; border-radius: 10px; background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.3); display: flex; align-items: center; justify-content: center; color: var(--accent);">
+        <Icon name="book" size={22} />
+      </div>
+      <h1 style="font-size: 2.25rem; font-weight: 800; color: #fff; margin: 0;">
+        Knowledge Notes & Study Vault
+      </h1>
+    </div>
+    <p style="color: var(--text-secondary); font-size: 1.05rem; margin-left: 3.25rem;">
+      Curated technical articles, deep dives, and architectural notes from <code>personal/notes/</code>.
+    </p>
+  </div>
+
+  <div class="card-grid">
+    {notes.length === 0 ? (
+      <div class="card" style="grid-column: 1 / -1; text-align: center; padding: 3rem;">
+        <p style="color: var(--text-secondary);">No notes found. Notes added to <code>personal/notes/</code> will appear here automatically.</p>
+      </div>
+    ) : (
+      notes.map((item) => (
+        <a href={`/notes/${item.id}`} class="card" style="text-decoration: none; display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.85rem;">
+              <span class="badge" style="background: rgba(56, 189, 248, 0.12); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.25);">
+                {item.data.category || 'Engineering'}
+              </span>
+              {item.data.date && (
+                <span style="display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.75rem; color: var(--text-secondary);">
+                  <Icon name="calendar" size={13} />
+                  {new Date(item.data.date).toISOString().split('T')[0]}
+                </span>
+              )}
+            </div>
+            
+            <h2 class="card-title" style="margin-bottom: 0.5rem;">
+              {item.data.title || item.id}
+            </h2>
+            
+            <p class="card-desc" style="margin-bottom: 1.25rem; line-height: 1.5;">
+              {item.data.summary || item.data.description || 'In-depth engineering notes and system design patterns.'}
+            </p>
+          </div>
+
+          <div>
+            {item.data.tags && item.data.tags.length > 0 && (
+              <div style="display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 1rem;">
+                {item.data.tags.map((tag: string) => (
+                  <span style="display: inline-flex; align-items: center; gap: 0.2rem; font-size: 0.7rem; color: var(--text-secondary); background: rgba(255,255,255,0.05); padding: 0.15rem 0.45rem; border-radius: 4px;">
+                    #{tag}
+                  </span>
+                ))}
+              </div>
+            )}
+            
+            <div class="card-meta" style="margin-top: 0; padding-top: 0.75rem; border-top: 1px solid var(--border-color);">
+              <span style="font-size: 0.8rem; color: var(--text-secondary);">Read article</span>
+              <span style="color: var(--accent); font-weight: 600; display: inline-flex; align-items: center; gap: 0.25rem; font-size: 0.85rem;">
+                Read <Icon name="arrow-right" size={14} />
+              </span>
+            </div>
+          </div>
+        </a>
+      ))
+    )}
+  </div>
+</Layout>

@@ -1,0 +1,203 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import { getCollection } from 'astro:content';
+
+let projects: any[] = [];
+let notes: any[] = [];
+let snippets: any[] = [];
+
+try {
+  projects = await getCollection('projects');
+  notes = await getCollection('notes');
+  snippets = await getCollection('snippets');
+
+  projects.sort((a, b) => new Date(b.data.date || '2026-01-01').getTime() - new Date(a.data.date || '2026-01-01').getTime());
+  notes.sort((a, b) => new Date(b.data.date || '2026-01-01').getTime() - new Date(a.data.date || '2026-01-01').getTime());
+  snippets.sort((a, b) => new Date(b.data.date || '2026-01-01').getTime() - new Date(a.data.date || '2026-01-01').getTime());
+} catch (e) {
+  console.error("Error loading collections:", e);
+}
+---
+
+<Layout title="Hein Htet Kyaw | Dev Vault & Engineering Logs">
+  <!-- Hero Section -->
+  <section style="margin-bottom: 3.5rem; text-align: center; padding: 2rem 0;">
+    <div style="display: inline-flex; align-items: center; gap: 0.5rem; margin-bottom: 1.25rem;">
+      <span class="badge" style="font-size: 0.85rem; padding: 0.35rem 0.85rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+        <Icon name="bot" size={16} />
+        <span>Full-Stack Developer &bull; Telegram Bots &bull; Myanmar 🇲🇲</span>
+      </span>
+    </div>
+
+    <h1 style="font-size: 2.75rem; font-weight: 800; color: #fff; margin-bottom: 1rem; line-height: 1.2;">
+      Hi there! I'm <span style="background: linear-gradient(135deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Hein Htet Kyaw</span> 👋
+    </h1>
+
+    <p style="font-size: 1.15rem; color: var(--text-secondary); max-width: 680px; margin: 0 auto 1.75rem auto;">
+      High-performance Telegram bot automation, infrastructure engineering, and permanent technical reference vault.
+    </p>
+
+    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+      <a href="/projects" class="github-btn" style="background-color: var(--accent); color: #0f172a; border: none; font-weight: 600; padding: 0.6rem 1.25rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+        <Icon name="layers" size={16} />
+        <span>Explore Engineering Logs</span>
+      </a>
+      <a href="/about" class="github-btn" style="padding: 0.6rem 1.25rem; display: inline-flex; align-items: center; gap: 0.4rem;">
+        <Icon name="terminal" size={16} />
+        <span>About & Tech Stack</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Metric Badges -->
+  <section style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 4rem;">
+    <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.25rem; text-align: center;">
+      <div style="font-size: 1.85rem; font-weight: 800; color: var(--accent);">{projects.length}</div>
+      <div style="font-size: 0.85rem; color: var(--text-secondary); display: flex; align-items: center; justify-content: center; gap: 0.35rem; margin-top: 0.25rem;">
+        <Icon name="layers" size={14} /> Engineering Logs
+      </div>
+    </div>
+    <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.25rem; text-align: center;">
+      <div style="font-size: 1.85rem; font-weight: 800; color: #a78bfa;">{notes.length}</div>
+      <div style="font-size: 0.85rem; color: var(--text-secondary); display: flex; align-items: center; justify-content: center; gap: 0.35rem; margin-top: 0.25rem;">
+        <Icon name="book" size={14} /> Technical Notes
+      </div>
+    </div>
+    <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.25rem; text-align: center;">
+      <div style="font-size: 1.85rem; font-weight: 800; color: #34d399;">{snippets.length}</div>
+      <div style="font-size: 0.85rem; color: var(--text-secondary); display: flex; align-items: center; justify-content: center; gap: 0.35rem; margin-top: 0.25rem;">
+        <Icon name="code" size={14} /> Production Snippets
+      </div>
+    </div>
+    <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.25rem; text-align: center;">
+      <div style="font-size: 1.85rem; font-weight: 800; color: #fbbf24;">100%</div>
+      <div style="font-size: 0.85rem; color: var(--text-secondary); display: flex; align-items: center; justify-content: center; gap: 0.35rem; margin-top: 0.25rem;">
+        <Icon name="shield" size={14} /> Zero Secrets Leak
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Engineering Logs & Writeups -->
+  <section style="margin-bottom: 4rem;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+      <div style="display: flex; align-items: center; gap: 0.6rem;">
+        <Icon name="layers" size={22} class="text-sky-400" />
+        <div>
+          <h2 style="font-size: 1.4rem; font-weight: 700; color: #fff;">Recent Engineering Writeups</h2>
+          <p style="color: var(--text-secondary); font-size: 0.85rem;">Root Cause Analyses, postmortems, and architecture logs.</p>
+        </div>
+      </div>
+      <a href="/projects" style="font-size: 0.9rem; font-weight: 500; display: inline-flex; align-items: center; gap: 0.25rem;">
+        View all ({projects.length}) <Icon name="arrow-right" size={14} />
+      </a>
+    </div>
+
+    <div class="card-grid">
+      {projects.slice(0, 4).map((item) => {
+        const isPostmortem = item.data.type === 'postmortem';
+        const badgeType = isPostmortem ? 'Postmortem' : (item.data.type === 'adr' ? 'ADR' : 'Feature');
+        const badgeIcon = isPostmortem ? 'bug' : (item.data.type === 'adr' ? 'layers' : 'zap');
+        return (
+          <a href={`/projects/${item.id}`} class="card" style="text-decoration: none;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem;">
+              <span class="badge" style="display: inline-flex; align-items: center; gap: 0.3rem;">
+                <Icon name={badgeIcon} size={13} />
+                {badgeType}
+              </span>
+              <span style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono);">
+                {item.data.project || item.id.split('/')[0]}
+              </span>
+            </div>
+            <h3 class="card-title" style="line-height: 1.35;">{item.data.title || item.id}</h3>
+            <p class="card-desc">
+              {item.data.summary || "Technical investigation and architectural decisions."}
+            </p>
+            <div class="card-meta">
+              <span>{item.data.date ? new Date(item.data.date).toISOString().split('T')[0] : '2026-10-07'}</span>
+              <span style="color: var(--accent); font-weight: 500; display: flex; align-items: center; gap: 0.2rem;">
+                Read <Icon name="arrow-right" size={13} />
+              </span>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+
+  <!-- Technical Notes Section -->
+  <section style="margin-bottom: 4rem;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+      <div style="display: flex; align-items: center; gap: 0.6rem;">
+        <Icon name="book" size={22} class="text-purple-400" />
+        <div>
+          <h2 style="font-size: 1.4rem; font-weight: 700; color: #fff;">Knowledge Guides & Notes</h2>
+          <p style="color: var(--text-secondary); font-size: 0.85rem;">Hardening, protocol architecture, and sysadmin reference notes.</p>
+        </div>
+      </div>
+      <a href="/notes" style="font-size: 0.9rem; font-weight: 500; display: inline-flex; align-items: center; gap: 0.25rem;">
+        View all ({notes.length}) <Icon name="arrow-right" size={14} />
+      </a>
+    </div>
+
+    <div class="card-grid">
+      {notes.map((item) => (
+        <a href={`/notes/${item.id}`} class="card" style="text-decoration: none;">
+          <div style="margin-bottom: 0.5rem;">
+            <span class="badge" style="background-color: rgba(167, 139, 250, 0.1); border-color: rgba(167, 139, 250, 0.25); color: #c4b5fd;">
+              {item.data.category || 'Guide'}
+            </span>
+          </div>
+          <h3 class="card-title" style="line-height: 1.35;">{item.data.title || item.id}</h3>
+          <p class="card-desc">
+            {item.data.description || "In-depth guide from personal vault."}
+          </p>
+          <div class="card-meta">
+            <span>{item.data.date ? new Date(item.data.date).toISOString().split('T')[0] : '2026-10-07'}</span>
+            <span style="color: var(--accent); font-weight: 500; display: flex; align-items: center; gap: 0.2rem;">
+              Read <Icon name="arrow-right" size={13} />
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Production Snippets Section -->
+  <section style="margin-bottom: 4rem;">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+      <div style="display: flex; align-items: center; gap: 0.6rem;">
+        <Icon name="code" size={22} class="text-emerald-400" />
+        <div>
+          <h2 style="font-size: 1.4rem; font-weight: 700; color: #fff;">Production Snippets & Cheatsheets</h2>
+          <p style="color: var(--text-secondary); font-size: 0.85rem;">Reusable Docker, Systemd, Nginx, and Git configurations.</p>
+        </div>
+      </div>
+      <a href="/snippets" style="font-size: 0.9rem; font-weight: 500; display: inline-flex; align-items: center; gap: 0.25rem;">
+        View all ({snippets.length}) <Icon name="arrow-right" size={14} />
+      </a>
+    </div>
+
+    <div class="card-grid">
+      {snippets.map((item) => (
+        <a href={`/snippets/${item.id}`} class="card" style="text-decoration: none;">
+          <div style="margin-bottom: 0.5rem;">
+            <span class="badge" style="background-color: rgba(52, 211, 153, 0.1); border-color: rgba(52, 211, 153, 0.25); color: #6ee7b7;">
+              {item.data.category || 'Snippet'}
+            </span>
+          </div>
+          <h3 class="card-title" style="line-height: 1.35;">{item.data.title || item.id}</h3>
+          <p class="card-desc">
+            {item.data.description || "Production-ready terminal blueprint."}
+          </p>
+          <div class="card-meta">
+            <span>Snippet</span>
+            <span style="color: var(--accent); font-weight: 500; display: flex; align-items: center; gap: 0.2rem;">
+              View <Icon name="arrow-right" size={13} />
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>

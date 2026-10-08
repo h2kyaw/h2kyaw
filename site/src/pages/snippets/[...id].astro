@@ -1,0 +1,61 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Icon from '../../components/Icon.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const snippets = await getCollection('snippets');
+  return snippets.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Layout title={`${entry.data.title || entry.id} | Code Snippet`}>
+  <div style="margin-bottom: 2rem;">
+    <a href="/snippets" style="font-size: 0.9rem; color: var(--text-secondary); text-decoration: none; display: inline-flex; align-items: center; gap: 0.35rem;">
+      &larr; Back to all snippets
+    </a>
+  </div>
+
+  <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; padding: 1.75rem; margin-bottom: 2.5rem;">
+    <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem; flex-wrap: wrap;">
+      <span class="badge" style="background: rgba(16, 185, 129, 0.12); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.25);">
+        {entry.data.category || 'Snippet'}
+      </span>
+      {entry.data.language && (
+        <span style="font-family: monospace; font-size: 0.8rem; color: var(--accent); background: rgba(56, 189, 248, 0.08); padding: 0.2rem 0.5rem; border-radius: 4px; border: 1px solid rgba(56, 189, 248, 0.2);">
+          .{entry.data.language}
+        </span>
+      )}
+    </div>
+
+    <h1 style="font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 0.75rem;">
+      {entry.data.title || entry.id}
+    </h1>
+
+    {entry.data.summary && (
+      <p style="color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 1rem; line-height: 1.6;">
+        {entry.data.summary}
+      </p>
+    )}
+
+    {entry.data.tags && entry.data.tags.length > 0 && (
+      <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; padding-top: 0.75rem; border-top: 1px solid var(--border-color);">
+        {entry.data.tags.map((tag: string) => (
+          <span style="font-size: 0.75rem; color: var(--text-secondary); background: rgba(255,255,255,0.05); padding: 0.2rem 0.5rem; border-radius: 4px;">
+            #{tag}
+          </span>
+        ))}
+      </div>
+    )}
+  </div>
+
+  <article class="prose">
+    <Content />
+  </article>
+</Layout>
