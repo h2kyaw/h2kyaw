@@ -1,0 +1,8 @@
+# Search ignore for ripgrep and file indexers
+.git/
+.github/workflows/
+.agents/.archive/
+node_modules/
+.system_generated/
+*.tmp
+*.log

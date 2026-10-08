@@ -1,0 +1,87 @@
+# ==============================================================================
+# Git Ignore - Hein Htet Kyaw Personal GitHub Profile & Knowledge Base
+# ==============================================================================
+
+# --- Operating System & Desktop Clutter ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- IDE & Editor Artifacts ---
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+*.bak
+
+# --- Private & Sensitive Personal Data ---
+# Any notes or files placed in private/ directories remain local-only
+private/
+**/private/
+personal/private/
+notes/private/
+*.private.md
+*.secret.md
+*.draft.md
+drafts/
+vault/
+.vault/
+
+# --- Environment & Security Credentials ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pub
+*.p12
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+*.gpg
+*.asc
+credentials.json
+token.json
+client_secrets.json
+
+# --- Node / Package Managers (if local tools used) ---
+node_modules/
+dist/
+.astro/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Python & Scripting Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.pytest_cache/
+
+# --- Temporary Files & Agent Working Artifacts ---
+tmp/
+temp/
+*.tmp
+*.log
+.agent-scratch/
+.system_generated/
