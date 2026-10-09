@@ -1,102 +1,68 @@
-<p align="center">
-  <a href="https://hhk.my.id">
-    <img width="480" src="https://github.githubassets.com/assets/inbox-zero-dark-377cc25a227f.svg" alt="Hein Htet Kyaw">
-  </a>
-</p>
-
-<h1 align="center">Hi there! I'm Hein Htet Kyaw 👋</h1>
-<h3 align="center">Full-Stack Developer | Telegram Bot Creator | WordPress Specialist</h3>
+<h1 align="center">Hein Htet Kyaw</h1>
 
 <p align="center">
-  <a href="https://hhk.my.id">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Building+Telegram+Bots;Developing+WordPress+Solutions;Creating+MyBB+Plugins;From+Myanmar+%F0%9F%87%B2%F0%9F%87%B2" alt="Typing animation">
-  </a>
+  <strong>Systems & Network Developer · Telegram MTProto Specialist · Web Architect</strong><br>
+  <em>Building resilient bot infrastructure, policy routing networks, and modern web systems.</em>
+</p>
+
+<p align="center">
+  <a href="https://hhk.my.id"><img src="https://img.shields.io/badge/Website-hhk.my.id-0f172a?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://t.me/HeinHtetkyaw"><img src="https://img.shields.io/badge/Telegram-@HeinHtetkyaw-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
+  <a href="https://github.com/h2kyaw"><img src="https://img.shields.io/badge/GitHub-h2kyaw-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://linkedin.com/in/h2kyaw"><img src="https://img.shields.io/badge/LinkedIn-h2kyaw-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 ---
 
-## 🚀 About Me
+### ⚡ Engineering Focus
 
-I'm a versatile developer from Myanmar specializing in:
-- **Telegram Bot Development** 🤖 (Music, Utilities, Marketing)
-- **WordPress Ecosystem** 🛒 (Themes, Plugins, WooCommerce)
-- **Forum Systems** 🏗️ (MyBB customization and plugins)
-
-🔭 **Currently:** Building advanced Telegram bots and WordPress solutions  
-🌱 **Learning:** Python AI integration for bots, Flutter mobile development  
-💡 **Passion:** Creating tools that solve real-world problems  
+- 🤖 **Telegram MTProto Ecosystem**: Engineering high-throughput userbots, federation defense meshes, and business automation using binary MTProto (`@mtcute`), PostgreSQL, and Gemini AI.
+- 🛡️ **Network & Systems Engineering**: Architecting policy routing, userspace proxy detours (`sing-box`), split-tunneling ipsets, and hardened Linux environments.
+- 🌐 **Web & Content Platforms**: Custom WordPress/WooCommerce solutions, MyBB forum systems, and fast edge-rendered static sites.
+- 🛠️ **DevOps & Edge Infrastructure**: Containerized deployments via Docker & Docker Compose, Cloudflare Pages/Workers, and automated CI/CD pipelines.
 
 ---
 
-## 🛠 Tech Stack
+### 🛠️ Technical Stack
 
-### 🤖 Telegram Bot Development
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Telegram API](https://img.shields.io/badge/Telegram_API-26A5E4?logo=telegram)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?logo=ffmpeg&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
-
-### 🌐 Web Development
-![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?logo=wordpress)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-
-### ⚙️ DevOps
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws)
+| Domain | Technologies & Tools |
+| :--- | :--- |
+| **Languages & Runtimes** | `TypeScript` `JavaScript` `Node.js` `Python` `PHP` `Bash` `SQL` |
+| **Telegram & Automation** | `MTProto Protocol` `@mtcute` `Telegram Bot API` `Google Gemini AI` |
+| **Networks & Systems** | `Linux (Alpine/Debian)` `Sing-box` `Docker & Compose` `iptables / UFW` |
+| **Web & Storage** | `WordPress` `WooCommerce` `PostgreSQL` `Redis` `MySQL` `Astro` |
+| **Cloud & DevOps** | `Cloudflare (Pages/Workers)` `GitHub Actions` `Git` `Reverse Proxy` |
 
 ---
 
-## 🤖 Telegram Bot Projects
+### 🚀 Featured Systems & Projects
 
-### 🎵 Harmony Bots
-[![MPXMusicBot](https://img.shields.io/badge/MPX_MusicBot_🎧-fff?logo=telegram)](https://t.me/MPXMusicBot)  
-YouTube music streaming in Telegram voice chats with playlist management
+#### 🤖 Telegram Infrastructure & Automation
+- **Enterprise Telegram Userbot & Manager (`hhkbot`)**: Dual-role MTProto architecture combining personal business automation with group moderation mesh, PostgreSQL session pooling, and Gemini AI integration.
+- **Harmony Bots Ecosystem**: Media streaming and high-fidelity audio download utilities optimized for low-latency Telegram group voice chats.
+- **Utility & Moderation Bots**: Anti-raid group protection ([@MPXLeaveBanBot](https://t.me/MPXLeaveBanBot)), automated marketing toolkits ([@MPXSMMBot](https://t.me/MPXSMMBot)), and store directory services.
 
-[![MPXSongBot](https://img.shields.io/badge/MPX_Song_🎵-fff?logo=telegram)](https://t.me/MPXSongBot)  
-Download YouTube songs as high-quality MP3 files directly in Telegram
+#### 🛡️ Routing & Network Tooling
+- **Smart Proxy & Policy Gateway**: Sing-box userspace detours with multi-hop routing, AdGuard DoH DNS leak prevention, and granular split tunneling.
+- **Automated Cloudflare Edge Proxies**: Serverless worker scripts and clean deployment tools for privacy-preserving routing.
 
-### 🛠 Utility Bots
-[![MPXLeaveBanBot](https://img.shields.io/badge/MPX_Leave_=_Ban_🔥-fff?logo=telegram)](https://t.me/MPXLeaveBanBot)  
-Automatically bans users who leave groups (anti-raid protection)
-
-[![MPXStore](https://img.shields.io/badge/MPX_Store_🛒-fff?logo=telegram)](https://t.me/MPXStoreBot)  
-For getting information about Telegram Premium Store.
-
-### 📈 Marketing Tools
-[![MPXSMMBot](https://img.shields.io/badge/📢_MPXSMMBot-fff?logo=telegram)](https://t.me/MPXSMMBot)  
-Social Media Marketing automation toolkit for Telegram
-
-### 🚧 Upcoming Projects
-- **MPXVideoBot** - Premium video downloader
-- **MPXChatGPTBot** - AI-powered Telegram assistant
-- **MPXConverterBot** - Universal file conversion
+#### 🌐 Web Platforms & Systems
+- **Personal Knowledge Hub & Tech Blog**: Technical notes, architecture decision records (ADRs), and postmortems published at [hhk.my.id](https://hhk.my.id).
+- **Custom WordPress & Forum Solutions**: High-performance themes, custom plugins, WooCommerce implementations, and MyBB forum optimization.
 
 ---
 
-## 🌐 Web Projects
-
-### 💼 Professional Work
-- **Enterprise WordPress Solutions** - Custom theme/plugin development
-- **MyBB Forum Systems** - Performance optimization and plugins
-- **eCommerce Platforms** - WooCommerce implementations
-
-### 🛠 Open Source
-- **[Tech Blog](https://hhk.my.id)** - Developer guides and tutorials
-- **WordPress Optimization Kit** - Performance tuning resources
-- **MyBB Plugin Templates** - Starter kits for developers
-
-### ✍️ Latest Blog Posts ⟿ [@hhk.my.id](https://hhk.my.id)
+### 📝 Recent Technical Notes & Articles
 
 <div style="list-style-type: '📖 ';">
-  
+
 <!-- hhkmyid:START -->&emsp;&emsp;📖 <a href='https://hhk.my.id/posts/key-is-stored-in-legacy-trusted-gpg-keyring/' target='_blank'>Key ကို Legacy Trusted.gpg Keyring မှာ သိမ်းထားခြင်း</a><br>&emsp;&emsp;📖 <a href='https://hhk.my.id/posts/finally-got-my-domain/' target='_blank'>Finally My Domain Name - hhk.my.id</a><br>&emsp;&emsp;📖 <a href='https://hhk.my.id/posts/ssh-gpg-keys-backup-restore-secure-github-setup/' target='_blank'>SSH &amp; GPG Keys: Backup, Restore &amp; Secure GitHub Setup</a><br>&emsp;&emsp;📖 <a href='https://hhk.my.id/posts/ms-activation-scripts/' target='_blank'>Microsoft Activation Scripts</a><br>&emsp;&emsp;📖 <a href='https://hhk.my.id/posts/office365-with-developer-account/' target='_blank'>Office 365 with Developer Account</a><br>&emsp;&emsp;📖 <a href='https://hhk.my.id/posts/domain-dns-journey/' target='_blank'>Domain &lpar;DNS&rpar; Journey</a><br>&emsp;&emsp;📖 <a href='https://hhk.my.id/posts/download-m3u8-ffmpeg/' target='_blank'>Download m3u8 with ffmpeg</a><br>&emsp;&emsp;📖 <a href='https://hhk.my.id/posts/chemical/' target='_blank'>Chemical</a><br>&emsp;&emsp;📖 <a href='https://hhk.my.id/posts/diagrams/' target='_blank'>Diagrams</a><br>&emsp;&emsp;📖 <a href='https://hhk.my.id/posts/hyper-git-terminal-customize/' target='_blank'>Hyper + Git Terminal Customize</a><br><!-- hhkmyid:END -->
 
 </div>
 
-### :zap: Recent Activity
+---
+
+### ⚡ Recent Activity
 
 <!--RECENT_ACTIVITY:start-->
 1. ⬆️ Pushed commit(s) to [h2kyaw/h2kyaw](https://github.com/h2kyaw/h2kyaw)<br>
@@ -113,27 +79,6 @@ Social Media Marketing automation toolkit for Telegram
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=h2kyaw&theme=transparent&hide_border=true&border_radius=&ring=EB5454&fire=EB5454&currStreakNum=EB5454&currStreakLabel=EB5454)](https://git.io/streak-stats)
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=h2kyaw&show_icons=true&theme=transparent&hide_title=true&hide_border=true&rank_icon=github)
-
-</div>
-
----
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-[![Telegram](https://img.shields.io/badge/💬_Telegram-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/HeinHtetkyaw)
-[![GitHub](https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github)](https://github.com/h2kyaw)
-[![Twitter](https://img.shields.io/badge/🐦_Twitter-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/HeinHtetKyaw_)
-[![LinkedIn](https://img.shields.io/badge/👔_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/h2kyaw)
-
-[![Buy Me A Coffee](https://img.shields.io/badge/☕_Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/h2kyaw)
-
-</div>
+<p align="center">
+  <em>Looking to collaborate on systems engineering, bot infrastructure, or custom web architecture? Feel free to connect via <a href="https://t.me/HeinHtetkyaw">Telegram</a>.</em>
+</p>
