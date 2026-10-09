@@ -7,48 +7,103 @@
 
 <p align="center">
   <a href="https://hhk.my.id"><img src="https://img.shields.io/badge/Website-hhk.my.id-0f172a?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://github.com/hhkmy"><img src="https://img.shields.io/badge/Org-@hhkmy-181717?style=flat-square&logo=github&logoColor=white" alt="hhkmy"></a>
+  <a href="https://github.com/hhkscripts"><img src="https://img.shields.io/badge/Org-@hhkscripts-181717?style=flat-square&logo=github&logoColor=white" alt="hhkscripts"></a>
   <a href="https://t.me/HeinHtetkyaw"><img src="https://img.shields.io/badge/Telegram-@HeinHtetkyaw-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
-  <a href="https://github.com/h2kyaw"><img src="https://img.shields.io/badge/GitHub-h2kyaw-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://linkedin.com/in/h2kyaw"><img src="https://img.shields.io/badge/LinkedIn-h2kyaw-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 ---
 
-### ⚡ Engineering Focus
+### 🏢 Engineering Organizations & Workspaces
 
-- 🤖 **Telegram MTProto Ecosystem**: Engineering high-throughput userbots, federation defense meshes, and business automation using binary MTProto (`@mtcute`), PostgreSQL, and Gemini AI.
-- 🛡️ **Network & Systems Engineering**: Architecting policy routing, userspace proxy detours (`sing-box`), split-tunneling ipsets, and hardened Linux environments.
-- 🌐 **Web & Content Platforms**: Custom WordPress/WooCommerce solutions, MyBB forum systems, and fast edge-rendered static sites.
-- 🛠️ **DevOps & Edge Infrastructure**: Containerized deployments via Docker & Docker Compose, Cloudflare Pages/Workers, and automated CI/CD pipelines.
+The primary engineering systems, network infrastructure, and automation suites are developed across two dedicated organizations:
 
----
-
-### 🛠️ Technical Stack
-
-| Domain | Technologies & Tools |
-| :--- | :--- |
-| **Languages & Runtimes** | `TypeScript` `JavaScript` `Node.js` `Python` `PHP` `Bash` `SQL` |
-| **Telegram & Automation** | `MTProto Protocol` `@mtcute` `Telegram Bot API` `Google Gemini AI` |
-| **Networks & Systems** | `Linux (Alpine/Debian)` `Sing-box` `Docker & Compose` `iptables / UFW` |
-| **Web & Storage** | `WordPress` `WooCommerce` `PostgreSQL` `Redis` `MySQL` `Astro` |
-| **Cloud & DevOps** | `Cloudflare (Pages/Workers)` `GitHub Actions` `Git` `Reverse Proxy` |
+- **[@hhkmy](https://github.com/hhkmy)** — Core web platforms, telemetry pipelines, digital knowledge vaults, and content publishing engines.
+- **[@hhkscripts](https://github.com/hhkscripts)** — Telegram MTProto bots, userspace VPN gateways (`sing-box`), edge automation, and payment gateways.
 
 ---
 
-### 🚀 Featured Systems & Projects
+### 🤖 Telegram Bot Infrastructure & Systems — [@hhkscripts](https://github.com/hhkscripts)
 
-#### 🤖 Telegram Infrastructure & Automation
-- **Enterprise Telegram Userbot & Manager (`hhkbot`)**: Dual-role MTProto architecture combining personal business automation with group moderation mesh, PostgreSQL session pooling, and Gemini AI integration.
-- **Harmony Bots Ecosystem**: Media streaming and high-fidelity audio download utilities optimized for low-latency Telegram group voice chats.
-- **Utility & Moderation Bots**: Anti-raid group protection ([@MPXLeaveBanBot](https://t.me/MPXLeaveBanBot)), automated marketing toolkits ([@MPXSMMBot](https://t.me/MPXSMMBot)), and store directory services.
+- **`hhkscripts/hhkbot`** · `🔒 Private Core` · [Architecture Docs](https://hhk.my.id)  
+  High-performance Telegram Business userbot and assistant powered by binary MTProto (`@mtcute`), PostgreSQL 16 connection pooling, and Google Gemini AI. Features dual-role dispatchers, enterprise federation defense mesh, and interactive single-bubble settings.
 
-#### 🛡️ Routing & Network Tooling
-- **Smart Proxy & Policy Gateway**: Sing-box userspace detours with multi-hop routing, AdGuard DoH DNS leak prevention, and granular split tunneling.
-- **Automated Cloudflare Edge Proxies**: Serverless worker scripts and clean deployment tools for privacy-preserving routing.
+- **`hhkscripts/leavebanbot`** · `🔒 Private Engine` · [Live Bot (@MPXLeaveBanBot)](https://t.me/MPXLeaveBanBot)  
+  High-throughput anti-raid group moderation bot that automatically detects and bans users upon exiting groups or linked channels, backed by PostgreSQL persistence and mass unban tools.
 
-#### 🌐 Web Platforms & Systems
-- **Personal Knowledge Hub & Tech Blog**: Technical notes, architecture decision records (ADRs), and postmortems published at [hhk.my.id](https://hhk.my.id).
-- **Custom WordPress & Forum Solutions**: High-performance themes, custom plugins, WooCommerce implementations, and MyBB forum optimization.
+- **`hhkscripts/cryptowalletbot`** · `🔒 Private System`  
+  Financial bot integrating Telegram Stars, Fragment TON wallet top-ups, Telegram Premium gifting, ad balance recharges, and automated TON address detection.
+
+- **`hhkscripts/smileonebot`** · `🔒 Private System`  
+  Telegram bot and containerized FastAPI backend for automated Mobile Legends top-ups via SmileOne, featuring database session management and country-aware SKU selectors.
+
+- **`hhkscripts/songbot`** · `🔒 Private Service` · [Live Bot (@MPXSongBot)](https://t.me/MPXSongBot)  
+  Production-grade YouTube-to-MP3 extraction Telegram bot and asynchronous FastAPI backend with automated audio conversion.
+
+- **`hhkscripts/smmbot`** · `🔒 Private Suite` · [Live Bot (@MPXSMMBot)](https://t.me/MPXSMMBot)  
+  Social Media Marketing (SMM) Telegram panel integration with automated order placement, real-time balance tracking, and automated CI/CD deployments.
+
+- **`hhkscripts/markdownbot`** · `🔒 Private Utility`  
+  Serverless Telegram bot deployed on Cloudflare Workers that parses Markdown links into inline keyboards, preserves custom emoji, and forwards messages via Cloudflare KV.
+
+- **[`hhkscripts/FileStore`](https://github.com/hhkscripts/FileStore)** · `🌐 Public System`  
+  Telegram file storage engine providing permanent shortlinks, configurable auto-delete timers, and Multi-Force-Subscribe verification.
+
+- **[`hhkscripts/MPXMusicV2`](https://github.com/hhkscripts/MPXMusicV2)** & **[`hhkscripts/MPXMusicPlugins`](https://github.com/hhkscripts/MPXMusicPlugins)** · `🌐 Public System` · [Live Bot (@MPXMusicBot)](https://t.me/MPXMusicBot)  
+  Low-latency YouTube music and playlist streaming engine for Telegram voice chats, complete with modular plugin architecture.
+
+- **[`hhkscripts/TgMusicBot`](https://github.com/hhkscripts/TgMusicBot)** · `🌐 Public System`  
+  Python and Py-Tgcalls group call audio streaming bot with multi-platform playback (YouTube, Spotify, Apple Music, SoundCloud).
+
+- **Specialized Utility Bots** · `🔒 Private Services`  
+  - `hhkscripts/reactionbot` — Channel post automated reaction system.
+  - `hhkscripts/idbot` — Deep entity, peer, and user ID lookup tool.
+  - `hhkscripts/monitorbot` — Continuous Telegram bot and infrastructure uptime watchdog.
+  - `hhkscripts/MPXVideoBot` — High-definition video downloader service.
+  - `hhkscripts/smm` — SMMLab social media marketing management platform.
+  - `hhkscripts/minibots` — Collection of micro-automation handlers and utilities.
+
+---
+
+### 🛡️ Networks, Systems & Edge Tooling — [@hhkscripts](https://github.com/hhkscripts) & [@hhkmy](https://github.com/hhkmy)
+
+- **[`hhkscripts/rpi-vpn-hotspot`](https://github.com/hhkscripts/rpi-vpn-hotspot)** · `🌐 Public Project` · [Postmortem & Specs](https://hhk.my.id)  
+  Turnkey Raspberry Pi Wi-Fi hotspot router featuring Multi-VPN routing (`sing-box` VLESS Reality, AmneziaWG, WireGuard, OpenVPN), AdGuard Home DNS-over-HTTPS leak prevention, and Telegram remote control.
+
+- **[`hhkmy/scripts`](https://github.com/hhkmy/scripts)** · `🌐 Public Tooling` · [Read Writeup](https://hhk.my.id)  
+  Developer automation suite and dual-mode installer served globally through a Cloudflare Worker edge reverse proxy (`scripts.hhk.my.id`).
+
+- **[`hhkmy/stats`](https://github.com/hhkmy/stats)** · `🌐 Public Service`  
+  Centralized system status, uptime monitoring, and issue tracking dashboard.
+
+- **[`h2kyaw/novaproxy`](https://github.com/h2kyaw/novaproxy)** · `🌐 Public Project`  
+  Network proxy management panel and traffic detour orchestration.
+
+- **[`h2kyaw/cf-workers-telegram-bot`](https://github.com/h2kyaw/cf-workers-telegram-bot)** · `🌐 Public Boilerplate`  
+  High-performance serverless Telegram bot template for Cloudflare Workers.
+
+---
+
+### 🌐 Web Platforms & Knowledge Hub — [@hhkmy](https://github.com/hhkmy) & [@h2kyaw](https://github.com/h2kyaw)
+
+- **[`hhkmy/id`](https://github.com/hhkmy/id)** · `🌐 Public Hub` · [Visit Site](https://hhk.my.id)  
+  Official digital home and engineering knowledge base ([hhk.my.id](https://hhk.my.id)) hosting Architecture Decision Records (ADRs), postmortems, and developer guides.
+
+- **`hhkmy/channelenth`** · `🔒 Private Platform`  
+  Modern Myanmar content platform with 1,050+ curated articles and an offline-first Flutter Android reader application.
+
+- **[`hhkmy/speedlify`](https://github.com/hhkmy/speedlify)** · `🌐 Public Benchmark`  
+  Automated web performance, Core Web Vitals, and accessibility benchmark tracking system.
+
+- **[`hhkmy/dlread`](https://github.com/hhkmy/dlread)** & **[`hhkmy/Reading`](https://github.com/hhkmy/Reading)** · `🌐 Public Tools`  
+  Reading interface themes and document processing utilities.
+
+- **[`h2kyaw/recap-en-to-mm`](https://github.com/h2kyaw/recap-en-to-mm)** · `🌐 Public Tool`  
+  AI-assisted English-to-Myanmar recap and translation utility.
+
+- **[`h2kyaw/GuidesByMPX`](https://github.com/h2kyaw/GuidesByMPX)** · `🌐 Public Guides`  
+  Curated developer tutorials and Telegram platform best practices in Myanmar language.
 
 ---
 
