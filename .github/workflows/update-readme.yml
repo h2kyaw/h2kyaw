@@ -4,9 +4,9 @@ on:
   schedule:
     - cron: '0 */24 * * *'
   workflow_dispatch:
-  #push:
-  #  branches:
-  #    - main
+
+permissions:
+  contents: write
 
 jobs:
   recent-activity:
@@ -18,4 +18,4 @@ jobs:
       - name: 'Update README.md from TEMPLATE.md'
         uses: Readme-Workflows/recent-activity@main
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
