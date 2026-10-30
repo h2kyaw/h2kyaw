@@ -30,4 +30,5 @@ personal/projects/
 | [**hhkbot**](hhkbot/README.md) | `~/Projects/hhkbot` | Active | Telegram MTProto Business Userbot, Federation 2.0 & MissRose/GroupHelp Parity |
 | [**vpn**](vpn/README.md) | `~/Projects/vpn` | Active | Raspberry Pi VPN Gateway, VLESS Reality Detour & AdGuard DNS Sinkhole |
 | [**scripts**](scripts/README.md) | `~/Projects/scripts` | Active | Developer Shell Scripts, Antigravity Installer, and Cloudflare Edge Proxy (`scripts.hhk.my.id`) |
+| [**myanpass**](myanpass/README.md) | `personal/projects/myanpass` | Active (Design/Proposal) | National Digital Identity System (Mandai), Offline ECDSA QR, PKI HSM & MOHA Fast-Track Roadmap |
 
