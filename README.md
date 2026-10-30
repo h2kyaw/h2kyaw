@@ -127,8 +127,8 @@ The primary engineering systems, network infrastructure, and automation suites a
 5. ⬆️ Pushed commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 6. ⬆️ Pushed commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 7. ⬆️ Pushed commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-8. ⬆️ Pushed commit(s) to [hhkscripts/networking](https://github.com/hhkscripts/networking)<br>
-9. ⬆️ Pushed commit(s) to [hhkscripts/rpi-vpn-hotspot](https://github.com/hhkscripts/rpi-vpn-hotspot)<br>
+8. ⬆️ Pushed commit(s) to [hhklabs/networking](https://github.com/hhklabs/networking)<br>
+9. ⬆️ Pushed commit(s) to [hhklabs/rpi-vpn-hotspot](https://github.com/hhklabs/rpi-vpn-hotspot)<br>
 10. ⬆️ Pushed commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 <!--RECENT_ACTIVITY:end-->
 
