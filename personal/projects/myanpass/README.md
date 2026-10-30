@@ -68,7 +68,16 @@ flowchart TD
 
 ---
 
-## ၃။ အဓိက မှတ်တမ်းများနှင့် နည်းပညာစာရွက်စာတမ်းများ (Documents Index)
+## ၄။ စီမံကိန်းအဖွဲ့နှင့် ပူးပေါင်းဆောင်ရွက်သူများ (Core Team & Collaborators)
+
+| အမည် | GitHub | အခန်းကဏ္ဍ (Role) |
+| :--- | :--- | :--- |
+| **Hein Htet Kyaw** | [@h2kyaw](https://github.com/h2kyaw) | Project Lead & System Architect |
+| **Htet Myet** | [@htetmyetnaing98](https://github.com/htetmyetnaing98) | Co-Founder & Technical Collaborator |
+
+---
+
+## ၅။ အဓိက မှတ်တမ်းများနှင့် နည်းပညာစာရွက်စာတမ်းများ (Documents Index)
 
 | ဖိုင်အမည် | အမျိုးအစား | အကြောင်းအရာ အကျဉ်းချုပ် |
 | --- | --- | --- |

@@ -13,7 +13,7 @@ tags: ["architecture", "adr", "system-design", "pki", "offline-qr", "fido2", "fe
 - **Project**: `personal/projects/myanpass/`
 - **Date**: 2026-10-30
 - **Status**: Accepted
-- **Lead Architect**: Hein Htet Kyaw
+- **Architects & Deciders**: Hein Htet Kyaw ([@h2kyaw](https://github.com/h2kyaw)), Htet Myet ([@htetmyetnaing98](https://github.com/htetmyetnaing98))
 
 ---
 

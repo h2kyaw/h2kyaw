@@ -12,6 +12,7 @@ tags: ["tender", "presentation-deck", "moha", "speaker-script", "digital-id"]
 
 - **Project**: `personal/projects/myanpass/`
 - **Date**: 2026-10-30
+- **Core Team**: Hein Htet Kyaw ([@h2kyaw](https://github.com/h2kyaw)), Htet Myet ([@htetmyetnaing98](https://github.com/htetmyetnaing98))
 - **Audience**: ပြည်ထောင်စုဝန်ကြီးနှင့် အဆင့်မြင့်အရာရှိကြီးများ၊ ပြည်ထဲရေးဝန်ကြီးဌာန (MOHA)
 
 ---
