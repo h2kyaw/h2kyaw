@@ -1,6 +1,6 @@
 # MyanPass (မဏ္ဍိုင် / MANDAI) — အမျိုးသားဒစ်ဂျစ်တယ်အိုင်ဒီစနစ်
 
-- **Project Path**: `~/Projects/myanpass`
+- **Project Path**: `~/github/h2kyaw/myanpass`
 - **GitHub Repository**: [h2kyaw/myanpass](https://github.com/h2kyaw/myanpass)
 - **Knowledge Base Location**: `personal/projects/myanpass/`
 - **Domain**: National Digital Identity (NDI) & Government eServices Platform
@@ -81,7 +81,7 @@ flowchart TD
 
 | ဖိုင်အမည် | အမျိုးအစား | အကြောင်းအရာ အကျဉ်းချုပ် |
 | --- | --- | --- |
-| [2026-10-30-national-digital-identity-architecture.md](file:///home/hhk/h2kyaw/personal/projects/myanpass/2026-10-30-national-digital-identity-architecture.md) | Architecture ADR | Federated API, National PKI, FIDO2, Offline ECDSA QR စနစ်ဗိသုကာ |
-| [2026-10-30-moha-tender-proposal-and-slides.md](file:///home/hhk/h2kyaw/personal/projects/myanpass/2026-10-30-moha-tender-proposal-and-slides.md) | Tender & Slides | ပြည်ထဲရေးဝန်ကြီးဌာန တင်ဒါအဆိုပြုလွှာ၊ Slide (၁၀/၁၂) ခု အပြည့်အစုံနှင့် Speaker Scripts |
-| [2026-10-30-ekyc-ppp-financial-model-and-roadmap.md](file:///home/hhk/h2kyaw/personal/projects/myanpass/2026-10-30-ekyc-ppp-financial-model-and-roadmap.md) | Business & Roadmap | ဘတ်ဂျက်မလိုသော PPP/BOT စီးပွားရေးမော်ဒယ်၊ eKYC API အခကြေးငွေနှင့် ရက် ၉၀ Pilot စီမံချက် |
-| [gemini-discussion-archive.md](file:///home/hhk/h2kyaw/personal/projects/myanpass/gemini-discussion-archive.md) | Discussion Archive | Gemini နှင့် ပြုလုပ်ခဲ့သော မူရင်း အမေးအဖြေ (၈) ကြိမ်လုံး၏ Markdown မှတ်တမ်းအပြည့်အစုံ |
+| [2026-10-30-national-digital-identity-architecture.md](./2026-10-30-national-digital-identity-architecture.md) | Architecture ADR | Federated API, National PKI, FIDO2, Offline ECDSA QR စနစ်ဗိသုကာ |
+| [2026-10-30-moha-tender-proposal-and-slides.md](./2026-10-30-moha-tender-proposal-and-slides.md) | Tender & Slides | ပြည်ထဲရေးဝန်ကြီးဌာန တင်ဒါအဆိုပြုလွှာ၊ Slide (၁၀/၁၂) ခု အပြည့်အစုံနှင့် Speaker Scripts |
+| [2026-10-30-ekyc-ppp-financial-model-and-roadmap.md](./2026-10-30-ekyc-ppp-financial-model-and-roadmap.md) | Business & Roadmap | ဘတ်ဂျက်မလိုသော PPP/BOT စီးပွားရေးမော်ဒယ်၊ eKYC API အခကြေးငွေနှင့် ရက် ၉၀ Pilot စီမံချက် |
+| [gemini-discussion-archive.md](./gemini-discussion-archive.md) | Discussion Archive | Gemini နှင့် ပြုလုပ်ခဲ့သော မူရင်း အမေးအဖြေ (၈) ကြိမ်လုံး၏ Markdown မှတ်တမ်းအပြည့်အစုံ |
