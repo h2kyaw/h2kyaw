@@ -129,7 +129,7 @@ The primary engineering systems, network infrastructure, and automation suites a
 7. ⬆️ Pushed commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 8. ⬆️ Pushed commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 9. ⬆️ Pushed commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
-10. 🔱 Forked [h2kyaw/ponytail](https://github.com/h2kyaw/ponytail) from [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)<br>
+10. ⬆️ Pushed commit(s) to [hhkmy/stats](https://github.com/hhkmy/stats)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ---
